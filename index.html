@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Тестовое задание</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="multiselect_grid">
+                <div>
+                    <div class="bordered_block dropdown">
+                        <div class="dropdown_head">
+                            Select industy
+                            <img src="./img/caret-down-fill.svg" alt="">
+                        </div>
+                        <div class="dropdown_body">
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox"> 
+                                Food / beverage <span class="checkmark"></span> 
+                            </label>
+
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox"> 
+                                Travel <span class="checkmark"></span> 
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="bordered_block dropdown dropdown-active">
+                        <div class="dropdown_label">Industry</div>
+                        <div class="dropdown_head">
+                            2 items selected
+                            <img src="./img/caret-up-fill.svg" alt="">
+                        </div>
+                        <div class="dropdown_body">
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox"> 
+                                <div>Food / beverage</div> <span class="checkmark"></span> 
+                            </label>
+
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox"> 
+                                <div>Travel</div> <span class="checkmark"></span> 
+                            </label>
+
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox" checked> 
+                                <div>Automotive</div>
+                                <div class="blue">1 item selected</div>
+                                    <span class="checkmark"></span> 
+                            </label>
+
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox" checked>  
+                                <div>Education</div> <span class="checkmark"></span> 
+                            </label>
+
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox"> 
+                                <div>Goverment</div> <span class="checkmark"></span> 
+                            </label>
+
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox"> 
+                                <div>Nonprofit</div> <span class="checkmark"></span> 
+                            </label>
+
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox"> 
+                                <div>Other</div> <span class="checkmark"></span> 
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div>
+                    <div class="bordered_block">
+                        <div class="dropdown">
+                            <div class="dropdown_head">
+                                Pick desired amenities
+                                <img src="./img/caret-down-fill.svg" alt="">
+                            </div>
+                            <div class="dropdown_body">
+                                <div class="checkbox">
+                                    <label class="custom-label custom-label__check-square">
+                                        <input type="checkbox" value="" class="custom-checkbox"> 
+                                        Food / beverage <span class="checkmark"></span> 
+                                    </label>
+    
+                                    <label class="custom-label custom-label__check-square">
+                                        <input type="checkbox" value="" class="custom-checkbox"> 
+                                        Other <span class="checkmark"></span> 
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="bordered_block picking_block">
+                        <div class="dropdown_label">Multiline amenities picked</div>
+
+                        <button class="not_button picking_close">
+                            <img src="./img/x.svg" alt="">
+                        </button>
+    
+                        <div class="picking_wrapper">
+                            <input type="checkbox" class="picking_checkbox" checked>
+                            <div class="picking_item">Free parking</div>
+                        </div>
+    
+                        <div class="picking_wrapper">
+                            <input type="checkbox" class="picking_checkbox">
+                            <div class="picking_item">Pool</div>
+                        </div>
+    
+                        <div class="picking_wrapper">
+                            <input type="checkbox" class="picking_checkbox">
+                            <div class="picking_item">Kitchen</div>
+                        </div>
+
+                        <div class="picking_wrapper">
+                            <input type="checkbox" class="picking_checkbox">
+                            <div class="picking_item">Bathroom</div>
+                        </div>
+    
+                        <div class="picking_wrapper">
+                            <input type="checkbox" class="picking_checkbox">
+                            <div class="picking_item">Pet-friendly</div>
+                        </div>
+    
+                        <div class="picking_wrapper">
+                            <input type="checkbox" class="picking_checkbox">
+                            <div class="picking_item">Free Wi-Fi</div>
+                        </div>
+
+                        <div class="picking_wrapper">
+                            <input type="checkbox" class="picking_checkbox">
+                            <div class="picking_item">Gym</div>
+                        </div>
+    
+                        <div class="picking_wrapper">
+                            <input type="checkbox" class="picking_checkbox">
+                            <div class="picking_item">Breakfast</div>
+                        </div>
+    
+                    </div>
+
+                    <div class="bordered_block relative">
+                        <div class="dropdown_label">Amenities</div>
+
+                        <div class="picking_block">
+                            <div class="picking_wrapper picking_gray">
+                                <input type="checkbox" class="picking_checkbox">
+                                <div class="picking_item">Gym</div>
+                            </div>
+        
+                            <div class="picking_wrapper picking_gray">
+                                <input type="checkbox" class="picking_checkbox">
+                                <div class="picking_item">Breakfast</div>
+                            </div>
+                        </div>
+
+                        <form method="post" class="search_bar">
+                            <button class="not_button"><img src="./img/search.svg" alt=""></button>
+                            <input type="text" value="" placeholder="People, places, events" required>
+                        </form>
+
+                        <div class="indent">
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox"> 
+                                <div>Bathroom</div> <span class="checkmark"></span> 
+                            </label>
+
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox" checked> 
+                                <div>Breakfast</div> <span class="checkmark"></span> 
+                            </label>
+
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox" checked> 
+                                <div>Gym</div>
+                                <span class="checkmark"></span> 
+                            </label>
+
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox">  
+                                <div>Free parking</div> <span class="checkmark"></span> 
+                            </label>
+
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox"> 
+                                <div>Free Wi-Fi</div> <span class="checkmark"></span> 
+                            </label>
+
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox"> 
+                                <div>Pet-friendly</div> <span class="checkmark"></span> 
+                            </label>
+                        </div>
+
+                        <div class="gap"></div>
+
+                        <div class="indent">
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox"> 
+                                <div>I don't need a toilet paper</div> <span class="checkmark"></span> 
+                            </label>
+
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox"> 
+                                <div>Please, wake me up at <a href="#" class="bluelink">Set time</a></div> <span class="checkmark"></span> 
+                            </label>
+                        </div>
+    
+                    </div>
+
+                </div>
+
+              
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
